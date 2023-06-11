@@ -1,0 +1,11 @@
+.main_card_img{
+    width: 100%;
+    height: 482px;
+    background-size: cover;
+}
+.main_card{
+
+    background: red;
+    width: 24%;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,50 @@
+.burger{
+ position: absolute;    
+ display: flex;   
+ left: 20%;  
+ gap: 25px;
+ top: 41%;                  
+}
+.ul{
+    padding-top: 20px;
+    list-style-type: none;
+    background:  #b31d42;
+    border-radius: 5px;
+    color: wheat;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.ul li{
+    color:  black;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.ul li a{
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+.burger_headname{
+    font-size: 20px;
+    color: wheat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    
+}
+.burger_cont{
+
+}
+.woman_ul{
+    list-style-type: none;
+    background: #b31d42;
+    border-radius: 5px;
+    color: wheat;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    /* background: #b31d42; */
+    background:  linear-gradient( #b31d42, #942723,  #4e1221);
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.header-conteiner{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+}
+.btn-search{
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.men ,.women, .logo{
+    text-decoration: none;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.line{
+    display: block;
+    background: wheat;
+    width: 30px;
+    height: 4px;
+}
+.input_search{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    right: 20%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.no-visible{
+    visibility: hidden;
+}
+.logo{
+    font-size: 40px;
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
